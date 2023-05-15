@@ -4,6 +4,7 @@
 /* Libraries */
 #include <stdio.h>
 #include <stdlib.h>
+#include <stddef.h>
 
 /* Structures */
 
@@ -27,5 +28,8 @@ typedef struct binary_tree_s binary_tree_t;
 
 /* Prototypes */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
+
+/* Prototype for test */
+void binary_tree_print(const binary_tree_t *);
 
 #endif
